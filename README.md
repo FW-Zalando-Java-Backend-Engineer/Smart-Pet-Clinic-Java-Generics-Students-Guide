@@ -216,7 +216,7 @@ public class TreatmentUtils {
 ---
 
 ## ✅ `src/util/AnimalShelter.java`  
-> Demonstrates **Wildcards in Collections**
+> Demonstrates [**Wildcards in Collections**](https://github.com/FW-Zalando-Java-Backend-Engineer/Smart-Pet-Clinic-Java-Generics-Students-Guide/blob/main/Wildcards/README.md)
 
 ```java
 package util;
