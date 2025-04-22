@@ -136,3 +136,56 @@ public class PetClinicDemo {
 | Wildcards              | `List<? extends Animal>`  |
 | Type Erasure (Theory)  | Mentioned in Demo output  |
 
+---
+
+Absolutely! Here's a simple **Markdown-style ASCII diagram** of how everything in the **SmartPetClinic** project connects. While it's text-based and a bit old-school, it's perfect for quick documentation (like in a `README.md`).
+
+---
+
+### 📘 SmartPetClinic Class Relationships (Markdown Diagram)
+
+<pre>
+                        +------------------+
+                        |     Animal       |  <--- Abstract base class
+                        +------------------+
+                          ▲            ▲
+                   extends         extends
+                          |            |
+                  +-------+----+ +-----+------+
+                  |    Dog     | |    Cat     |
+                  +------------+ +------------+
+
+    +---------------------+         +-----------------------------+
+    |     Cage<T>         |         |  PetRecordRepository<T>     |
+    | (Generic Class)     |         |  (Generic Interface)        |
+    +---------------------+         +-----------------------------+
+             ▲                                ▲
+             |                                |
+         used with                        implemented by
+             |                                |
+         +---+--------------------+      +----+-----------------+
+         |                        |      |                      |
+         |                    +--------+------------------+     |
+         |                    | PetClinicDemo (main)      |     |
+         |                    +---------------------------+     |
+         |                          ▲         ▲           ▲     |
+         |                          |         |           |     |
+         |         +----------------+   +-----+-----+ +---+---+ |
+         |         | TreatmentUtils |   | AnimalShelter| | Map  | |
+         |         | (Generic utils)|   | (Wildcards)  | |<T>   | |
+         |         +----------------+   +-------------+ +-------+ |
+         |                      treats, vaccinates        stores   |
+         +---------------------------------------------------------+
+</pre>
+
+---
+
+### 🧠 Legend
+- `▲` = "extends" or "implements"
+- `used with`, `treated by`, etc. describe usage relationships
+- `PetClinicDemo` is the orchestrator that ties all components together
+
+---
+
+
+
