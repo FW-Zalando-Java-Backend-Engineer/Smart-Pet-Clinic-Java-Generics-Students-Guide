@@ -22,7 +22,7 @@ Ideal for **students and junior devs**, this project focuses on mastering generi
 
 - Java 8+ (JDK 17 friendly)
 - Git Bash / Terminal
-- IDE: IntelliJ / Eclipse / VS Code (your choice, no judgment... unless it’s PHPStorm 😉)
+- IDE: IntelliJ / Eclipse / VS Code (your choice, no judgment... unless it’s JavaStorm 😉)
 
 ---
 
