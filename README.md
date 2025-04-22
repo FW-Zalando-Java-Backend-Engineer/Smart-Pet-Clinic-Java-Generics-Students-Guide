@@ -366,7 +366,6 @@ public class PetClinicDemo {
 ## 📘 Further Reading
 
 - [Oracle Java Generics](https://docs.oracle.com/javase/tutorial/java/generics/index.html)  
-- [Effective Java, Joshua Bloch (Item 26–29)](https://learning.oreilly.com/library/view/effective-java/9780134686097/)  
 - [Baeldung Generics](https://www.baeldung.com/java-generics)
 
 ---
