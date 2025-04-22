@@ -50,10 +50,6 @@ java -cp out main.PetClinicDemo
 ## 🧠 Key Concepts Explained: Deep Dive with Step-by-Step
 
 
-# 📦 SmartPetClinic – Complete Source Code
-
----
-
 ## 📁 Project Structure
 
 ```
