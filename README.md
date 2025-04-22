@@ -184,7 +184,8 @@ public class Cage<T> {
 - **Generic Magic**: You can define `Cage<Dog>` or `Cage<Cat>` without code duplication.
 - **Highlights**: Java enforces **type safety** at compile-time.
 
-📦 *Think of it like a type-safe box*. Unlike a PHP array, it won't turn into spaghetti if you drop in a banana. 🍌
+📦 *Think of it like a type-safe box*. And it won't turn into spaghetti if you drop in a banana. 🍌
+
 ---
 
 ## ✅ `src/util/TreatmentUtils.java`  
@@ -239,6 +240,7 @@ public class AnimalShelter {
 - **Why Wildcards?**: Useful when you're reading (not writing) from a generic collection.
 
 📚 *Wildcards are tricky*, but think of `? extends T` as **read-only** and `? super T` for **write operations**.
+
 ---
 
 ## ✅ `src/main/PetClinicDemo.java`  
@@ -311,6 +313,7 @@ public class PetClinicDemo {
 | Wildcards              | `List<? extends Animal>`  |
 | Type Erasure (Theory)  | Mentioned in Demo output  |
 
+
 ---
 
 ### 📘 SmartPetClinic ( Class Relationships Diagram)
@@ -348,6 +351,7 @@ public class PetClinicDemo {
          |                      treats, vaccinates        stores   |
          +---------------------------------------------------------+
 </pre>
+
 
 ---
 
