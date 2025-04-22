@@ -213,6 +213,7 @@ public class TreatmentUtils {
 - **Static**: So you can call them without instantiating a class.
 
 ⚠️ *Best Practice*: Use bounded types when a method works on a family of types with shared behavior — in this case, all `Animal`s can `speak()`.
+
 ---
 
 ## ✅ `src/util/AnimalShelter.java`  
