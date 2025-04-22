@@ -264,47 +264,6 @@ public class PetClinicDemo {
 
 ---
 
-## ✅ `README.md`
-
-```markdown
-# 🐾 SmartPetClinic – Java Generics Demo
-
-Welcome to the SmartPetClinic – a complete learning project showcasing advanced Java Generics concepts using a fun animal clinic theme.
-
----
-
-## 📦 What This Project Covers
-
-✅ Generic Classes (`Cage<T>`, `Clinic<T>`)  
-✅ Generic Interfaces (`PetRecordRepository<T>`)  
-✅ Generic Methods (`<T> void treatPet(T pet)`)  
-✅ Bounded Type Parameters (`<T extends Animal>`)  
-✅ Inheritance with Generics (`Dog extends Animal`, etc.)  
-✅ Wildcards in Collections  
-✅ Type Erasure under the hood
-
----
-
-## 🧠 Concepts Explained
-
-- **Generic Classes**: Code that can work on any type, keeping it reusable and type-safe.
-- **Bounded Type Parameters**: Limit generics to certain types using `extends`.
-- **Generic Interfaces**: Define reusable contracts with flexibility in types.
-- **Generic Methods**: Apply generics at method level without requiring class to be generic.
-- **Wildcards**: Support `? extends` for read-only and `? super` for write-safety.
-- **Type Erasure**: Generic type info is erased during runtime; know your compiler vs runtime behavior!
-
----
-
-## 🚀 How to Run
-
-```bash
-javac -d out src/**/*.java
-java -cp out main.PetClinicDemo
-```
-
----
-
 ## 📘 Further Reading
 
 - [Oracle Java Generics](https://docs.oracle.com/javase/tutorial/java/generics/index.html)  
